@@ -2,7 +2,6 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
         VStack (alignment: .center) {
             Text("Лабораторна робота №1")
                 .font(.title)
@@ -34,13 +33,12 @@ struct ContentView: View {
                     Text("Очікування від навчального курсу: ")
                         .font(.title3)
                         .fontWeight(.bold)
-                    Text("Очікую вміло навчитась розроблювати мобільні застосунки")
+                    Text("Очікую вміло навчитись розроблювати мобільні застосунки")
                         .font(.headline)
                 }
             }
             Spacer()
         }
-        
         .padding()
     }
 }
