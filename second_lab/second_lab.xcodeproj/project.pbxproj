@@ -15,6 +15,7 @@
 		0F79F8712A8FB0510071CBEB /* second_labTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F79F8702A8FB0510071CBEB /* second_labTests.swift */; };
 		0F79F87B2A8FB0510071CBEB /* second_labUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F79F87A2A8FB0510071CBEB /* second_labUITests.swift */; };
 		0F79F87D2A8FB0510071CBEB /* second_labUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F79F87C2A8FB0510071CBEB /* second_labUITestsLaunchTests.swift */; };
+		0FFD86A02A9086980044FBF7 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD869F2A9086980044FBF7 /* AboutMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		0F79F8762A8FB0510071CBEB /* second_labUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = second_labUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F79F87A2A8FB0510071CBEB /* second_labUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = second_labUITests.swift; sourceTree = "<group>"; };
 		0F79F87C2A8FB0510071CBEB /* second_labUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = second_labUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FFD869F2A9086980044FBF7 /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		0F79F85E2A8FB0500071CBEB /* second_lab */ = {
 			isa = PBXGroup;
 			children = (
+				0FFD869F2A9086980044FBF7 /* AboutMe.swift */,
 				0F79F85F2A8FB0500071CBEB /* second_labApp.swift */,
 				0F79F8612A8FB0500071CBEB /* ContentView.swift */,
 				0F1CD1FD2A8FEF5D004A7881 /* solve_equation.swift */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F79F8622A8FB0500071CBEB /* ContentView.swift in Sources */,
+				0FFD86A02A9086980044FBF7 /* AboutMe.swift in Sources */,
 				0F79F8602A8FB0500071CBEB /* second_labApp.swift in Sources */,
 				0F1CD1FE2A8FEF5D004A7881 /* solve_equation.swift in Sources */,
 			);

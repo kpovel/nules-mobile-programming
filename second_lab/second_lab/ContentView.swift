@@ -8,10 +8,15 @@ struct ContentView: View {
     @State private var result: Float = 0;
     
     var body: some View {
-        VStack {
+        ScrollView {
             Text("Laboratory work No. 2")
                 .font(.title)
                 .fontWeight(.bold)
+            Image("equation")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .padding(.vertical)
+            
             TextField(
                 "Type the \"x\" argument for the equation",
                 text: $firstArgument
@@ -42,17 +47,14 @@ struct ContentView: View {
             .padding(.top)
             .fontWeight(.medium)
             
-            Image("equation")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .padding(.vertical)
-            
             if showResult {
                 Text("I = \(result)")
                     .font(.title3)
                     .fontWeight(.semibold)
                     .padding(.top)
             }
+            
+            AboutMe()
             Spacer()
         }
         .padding()
